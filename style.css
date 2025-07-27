@@ -7,7 +7,7 @@
 
 input {
     width: 250px;
-    height: 50px;
+    height: 40px;
     border-radius: 10px;
     border: none;
     text-align: center;
@@ -40,9 +40,9 @@ button {
     width: 400px;
     height: 500px;
     padding: 0 30px 0 30px;
-    max-width: 92%;
+    max-width: 85%;
     margin: auto;
-    margin-top: 200px;
+    margin-top: 120px;
     opacity: 0;
     transform: translateY(-200px);
     animation: fadeInScale 3s ease-out forwards;
@@ -69,10 +69,9 @@ button {
     background-color: white;
     color: black;
     width: 250px;
-    height: 60px;
+    height: 50px;
     padding-top: 8px;
     border-radius: 10px;
-    margin-left: 40px;
 }
 
 @keyframes fadeInAnswer {

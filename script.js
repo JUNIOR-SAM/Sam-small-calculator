@@ -14,7 +14,7 @@ function sum() {
         showAnswer.innerHTML = "Please enter both numbers!";
         showAnswer.style.backgroundColor = "red"
         showAnswer.style.color = "white"
-        showAnswer.style.paddingTop = "17px"
+        showAnswer.style.paddingTop = "13px"
         showAnswer.style.transform = "scaleX(1.0)"
         showAnswer.style.animation = "fadeInAnswer 0.5s";
         setTimeout(() => { showAnswer.style.animation = ""; }, 500);
@@ -29,7 +29,7 @@ function sum() {
     var realAnswer = "The answer is " + sum
 
     showAnswer.innerHTML = realAnswer
-    showAnswer.style.paddingTop = "17px"
+    showAnswer.style.paddingTop = "13px"
     showAnswer.style.animation = "fadeInAnswer 0.5s";
     setTimeout(() => { showAnswer.style.animation = ""; }, 500);
 }
@@ -39,7 +39,7 @@ function subtract() {
         showAnswer.innerHTML = "Please enter both numbers!";
         showAnswer.style.backgroundColor = "red"
         showAnswer.style.color = "white"
-        showAnswer.style.paddingTop = "17px"
+        showAnswer.style.paddingTop = "13px"
         showAnswer.style.transform = "scaleX(1.0)"
         showAnswer.style.animation = "fadeInAnswer 0.5s";
         setTimeout(() => { showAnswer.style.animation = ""; }, 500);
@@ -54,7 +54,7 @@ function subtract() {
     var realAnswer = "The answer is " + subtract
 
     showAnswer.innerHTML = realAnswer
-    showAnswer.style.paddingTop = "17px"
+    showAnswer.style.paddingTop = "13px"
     showAnswer.style.animation = "fadeInAnswer 0.5s";
     setTimeout(() => { showAnswer.style.animation = ""; }, 500);
 
@@ -67,7 +67,7 @@ function divide() {
         showAnswer.innerHTML = "Please enter both numbers!";
         showAnswer.style.backgroundColor = "red"
         showAnswer.style.color = "white"
-        showAnswer.style.paddingTop = "17px"
+        showAnswer.style.paddingTop = "13px"
         showAnswer.style.transform = "scaleX(1.0)"
         showAnswer.style.animation = "fadeInAnswer 0.5s";
         setTimeout(() => { showAnswer.style.animation = ""; }, 500);
@@ -82,7 +82,7 @@ function divide() {
     var realAnswer = "The answer is " + quotient
 
     showAnswer.innerHTML = realAnswer
-    showAnswer.style.paddingTop = ""
+    showAnswer.style.paddingBottom = "50px"
     showAnswer.style.animation = "fadeInAnswer 0.5s";
     setTimeout(() => { showAnswer.style.animation = ""; }, 500);
 }
@@ -92,7 +92,7 @@ function divide() {
         showAnswer.innerHTML = "Please enter both numbers!";
         showAnswer.style.backgroundColor = "red"
         showAnswer.style.color = "white"
-        showAnswer.style.paddingTop = "17px"
+        showAnswer.style.paddingTop = "13px"
         showAnswer.style.transform = "scaleX(1.0)"
         showAnswer.style.animation = "fadeInAnswer 0.5s";
         setTimeout(() => { showAnswer.style.animation = ""; }, 500);
@@ -107,7 +107,7 @@ function divide() {
     var realAnswer = "The answer is " + multiplication
 
     showAnswer.innerHTML = realAnswer
-    showAnswer.style.paddingTop = "17px"
+    showAnswer.style.paddingTop = "13px"
     showAnswer.style.animation = "fadeInAnswer 0.5s";
     setTimeout(() => { showAnswer.style.animation = ""; }, 500);
 
